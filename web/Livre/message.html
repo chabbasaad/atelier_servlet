@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Confirmation</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container">
+        <h1>Confirmation</h1>
+        <p>Are you sure you want to delete this record?</p>
+        <form action="livres" method="post">
+            <input type="hidden" name="action" value="delete">
+            <input type="hidden" name="id" value="<%=request.getAttribute("code")%>">
+            <button type="submit" class="btn btn-danger">Delete</button>
+            <a href="livres" class="btn btn-secondary">Cancel</a>
+        </form>
+    </div>
+</body>
+</html>

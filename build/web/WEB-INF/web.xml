@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.1" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd">
+    <servlet>
+         <servlet-name>ControleurLivre</servlet-name>
+        <servlet-class>Controleur.ControleurLivre</servlet-class>
+        <init-param>
+            <param-name>driver</param-name>
+            <param-value>com.mysql.jdbc.Driver</param-value>
+        </init-param>
+        <init-param>
+            <param-name>url</param-name>
+            <param-value>jdbc:mysql://localhost/biblio</param-value>
+        </init-param>
+        <init-param>
+            <param-name>user</param-name>
+            <param-value>root</param-value>
+        </init-param>
+        <init-param>
+            <param-name>password</param-name>
+            <param-value/>
+        </init-param>
+        <load-on-startup>1</load-on-startup>
+    </servlet>
+    <servlet>
+        <servlet-name>ControleurDictionnaire</servlet-name>
+        <servlet-class>Controleur.ControleurDictionnaire</servlet-class>
+    </servlet>
+     <servlet-mapping>
+         <servlet-name>ControleurDictionnaire</servlet-name>
+        <url-pattern>/dictionnaires</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+         <servlet-name>ControleurLivre</servlet-name>
+        <url-pattern>/livres</url-pattern>
+    </servlet-mapping>
+     
+   
+    <session-config>
+        <session-timeout>30</session-timeout>
+    </session-config>
+    <welcome-file-list>
+        <welcome-file>main.jsp</welcome-file>
+    </welcome-file-list>
+</web-app>
