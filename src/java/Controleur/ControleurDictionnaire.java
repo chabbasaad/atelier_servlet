@@ -125,10 +125,7 @@ public class ControleurDictionnaire extends HttpServlet {
     @Override
     public void init() throws ServletException {
         ges = new Biblio();
-       Connexion.driver=getInitParameter("driver"); 
-       Connexion.url=getInitParameter("url"); 
-        Connexion.user=getInitParameter("user"); 
-        Connexion.password=getInitParameter("password"); 
+       
         
         }
 

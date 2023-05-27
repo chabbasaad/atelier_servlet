@@ -19,11 +19,12 @@
             <param-name>password</param-name>
             <param-value/>
         </init-param>
-        <load-on-startup>1</load-on-startup>
+       <load-on-startup>1</load-on-startup>
     </servlet>
     <servlet>
         <servlet-name>ControleurDictionnaire</servlet-name>
         <servlet-class>Controleur.ControleurDictionnaire</servlet-class>
+         
     </servlet>
      <servlet-mapping>
          <servlet-name>ControleurDictionnaire</servlet-name>

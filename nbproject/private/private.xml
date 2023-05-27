@@ -3,15 +3,23 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/D:/mysql%20jbdc%20java/atelier_Biblio/web/Dictionnaire/DictionnaireAffichage.jsp</file>
-            <file>file:/D:/mysql%20jbdc%20java/atelier_Biblio/web/WEB-INF/web.xml</file>
             <file>file:/D:/mysql%20jbdc%20java/atelier_Biblio/src/java/DAO/Connexion.java</file>
+            <file>file:/D:/mysql%20jbdc%20java/atelier_Biblio/web/WEB-INF/web.xml</file>
+            <file>file:/D:/mysql%20jbdc%20java/atelier_Biblio/src/java/Metier/Dictionnaire.java</file>
             <file>file:/D:/mysql%20jbdc%20java/atelier_Biblio/src/java/Metier/Biblio.java</file>
             <file>file:/D:/mysql%20jbdc%20java/atelier_Biblio/web/Dictionnaire/Form.jsp</file>
             <file>file:/D:/mysql%20jbdc%20java/atelier_Biblio/src/java/Controleur/ControleurDictionnaire.java</file>
-            <file>file:/D:/mysql%20jbdc%20java/atelier_Biblio/src/java/Controleur/ControleurLivre.java</file>
             <file>file:/D:/mysql%20jbdc%20java/atelier_Biblio/web/index.html</file>
             <file>file:/D:/mysql%20jbdc%20java/atelier_Biblio/web/Livre/LivreAffichage.jsp</file>
+            <file>file:/D:/mysql%20jbdc%20java/atelier_Biblio/src/java/Metier/Document.java</file>
+            <file>file:/D:/mysql%20jbdc%20java/atelier_Biblio/web/main.jsp</file>
+            <file>file:/D:/mysql%20jbdc%20java/atelier_Biblio/src/java/DAO/IDAO.java</file>
+            <file>file:/D:/mysql%20jbdc%20java/atelier_Biblio/web/Livre/Form.jsp</file>
+            <file>file:/D:/mysql%20jbdc%20java/atelier_Biblio/web/Dictionnaire/DictionnaireAffichage.jsp</file>
+            <file>file:/D:/mysql%20jbdc%20java/atelier_Biblio/src/java/DAO/DAO.java</file>
+            <file>file:/D:/mysql%20jbdc%20java/atelier_Biblio/test/test.java</file>
+            <file>file:/D:/mysql%20jbdc%20java/atelier_Biblio/src/java/Controleur/ControleurLivre.java</file>
+            <file>file:/D:/mysql%20jbdc%20java/atelier_Biblio/src/java/Metier/Livre.java</file>
             <file>file:/D:/mysql%20jbdc%20java/atelier_Biblio/web/Livre/message.html</file>
         </group>
     </open-files>
